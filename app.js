@@ -20,7 +20,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, world! From Github').end();
+  res.status(200).send('Continuous Deployment Configuration Complete').end();
 });
 
 // Start the server
